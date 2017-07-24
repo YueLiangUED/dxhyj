@@ -1,0 +1,219 @@
+header{
+    width: 36rem;
+    height: 23.15rem;
+    background: url("../images/bg_01.png") center no-repeat;
+    background-size: cover;
+}
+section{
+    position: relative;
+    width: 36rem;
+    height: 88.1rem;
+    background: url("../images/bg_02.png") center no-repeat;
+    background-size: cover;
+}
+section .tabTitle{
+    position: absolute;
+    top: -4.9rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 32.45rem;
+    height: 4.35rem;
+    background: url("../images/tabTitleBg.png") center no-repeat;
+    background-size: cover;
+}
+section .tabTitle ul li{
+    position: relative;
+    box-sizing: border-box;
+    float: left;
+    padding-top: 0.5rem;
+    width: 8rem;
+    text-align: center;
+}
+section .tabTitle ul li:first-child{
+    width: 8.5rem;
+}
+section .tabTitle ul li:nth-child(3){
+    width: 7.5rem;
+}
+section .tabTitle ul li p{
+    font-size: 1rem;
+    line-height: 2rem;
+    color: #3b1d00;
+}
+section .tabTitle ul li p span{
+    font-size: 0.6rem;
+}
+section .tabTitle ul li div{
+    margin: 0 auto;
+    width: 2.85rem;
+    height: 0.7rem;
+    font-size: 0.5rem;
+    text-align: center;
+    line-height: 0.7rem;
+    border-radius: 1rem;
+    color: #ffffff;
+    background-color: #eb1234;
+}
+section .tabTitle ul li i{
+    display: none;
+    position: absolute;
+    bottom: -2.4rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 3.25rem;
+    height: 1.85rem;
+    background: url("../images/active_03.png") center no-repeat;
+    background-size: cover;
+    z-index: 999;
+}
+section .tabTitle ul li.active i{
+    display: block;
+}
+section .tabCon{
+    margin: 0 auto;
+    width: 32.5rem;
+    height: 82.85rem;
+    background-color: #9cedff;
+}
+section .tabCon ul{
+    margin: 0 auto;
+    width: 31.45rem;
+}
+section .tabCon ul li{
+    position: relative;
+    width: 31.45rem;
+}
+section .tabCon ul li:nth-child(1){
+    height: 14.15rem;
+}
+section .tabCon ul li:nth-child(2){
+    height: 14.8rem;
+}
+section .tabCon ul li:nth-child(3){
+    height: 14.4rem;
+}
+section .tabCon ul li:nth-child(4){
+    height: 13.5rem;
+}
+section .tabCon ul li:nth-child(5){
+    height: 14.4rem;
+}
+section .tabCon ul li:nth-child(6){
+    height: 10.95rem;
+    background: url("../images/con1pic_23.png") center no-repeat;
+    background-size: cover;
+}
+section .tabCon.one ul li:nth-child(1){
+    background: url("../images/con1pic_08.png") center no-repeat;
+    background-size: cover;
+}
+section .tabCon.one ul li:nth-child(2){
+    background: url("../images/con1pic_11.png") center no-repeat;
+    background-size: cover;
+}
+section .tabCon.one ul li:nth-child(3){
+    background: url("../images/con1pic_14.png") center no-repeat;
+    background-size: cover;
+}
+section .tabCon.one ul li:nth-child(4){
+    background: url("../images/con1pic_17.png") center no-repeat;
+    background-size: cover;
+}
+section .tabCon.one ul li:nth-child(5){
+    background: url("../images/con1pic_20.png") center no-repeat;
+    background-size: cover;
+}
+section .tabCon.two ul li:nth-child(1){
+    background: url("../images/con2pic_08.png") center no-repeat;
+    background-size: cover;
+}
+section .tabCon.two ul li:nth-child(2){
+    background: url("../images/con2pic_11.png") center no-repeat;
+    background-size: cover;
+}
+section .tabCon.two ul li:nth-child(3){
+    background: url("../images/con2pic_14.png") center no-repeat;
+    background-size: cover;
+}
+section .tabCon.two ul li:nth-child(4){
+    background: url("../images/con2pic_17.png") center no-repeat;
+    background-size: cover;
+}
+section .tabCon.two ul li:nth-child(5){
+    background: url("../images/con2pic_20.png") center no-repeat;
+    background-size: cover;
+}
+section .tabCon.three ul li:nth-child(1){
+    background: url("../images/con3pic_08.png") center no-repeat;
+    background-size: cover;
+}
+section .tabCon.three ul li:nth-child(2){
+    background: url("../images/con3pic_11.png") center no-repeat;
+    background-size: cover;
+}
+section .tabCon.three ul li:nth-child(3){
+    background: url("../images/con3pic_14.png") center no-repeat;
+    background-size: cover;
+}
+section .tabCon.three ul li:nth-child(4){
+    background: url("../images/con3pic_17.png") center no-repeat;
+    background-size: cover;
+}
+section .tabCon.three ul li:nth-child(5){
+    background: url("../images/con3pic_20.png") center no-repeat;
+    background-size: cover;
+}
+section .tabCon.four ul li:nth-child(1){
+    background: url("../images/con4pic_08.png") center no-repeat;
+    background-size: cover;
+}
+section .tabCon.four ul li:nth-child(2){
+    background: url("../images/con4pic_11.png") center no-repeat;
+    background-size: cover;
+}
+section .tabCon.four ul li:nth-child(3){
+    background: url("../images/con4pic_14.png") center no-repeat;
+    background-size: cover;
+}
+section .tabCon.four ul li:nth-child(4){
+    background: url("../images/con4pic_17.png") center no-repeat;
+    background-size: cover;
+}
+section .tabCon.four ul li:nth-child(5){
+    background: url("../images/con4pic_20.png") center no-repeat;
+    background-size: cover;
+}
+section .tabCon ul li div{
+    position: absolute;
+    bottom: 0;
+    width: 5.8rem;
+    height: 2.5rem;
+    background: url("../images/buyBtn.png") center no-repeat;
+    background-size: cover;
+}
+section .tabCon.two ul li:nth-child(odd) div{
+    bottom: -0.5rem;
+}
+section .tabCon ul li:nth-child(odd) div{
+    left: 10.5rem;
+}
+section .tabCon ul li:nth-child(even) div{
+    right: 1rem;
+}
+section .tabCon.one{
+    display: none;
+}
+section .tabCon.two{
+    display: none;
+}
+section .tabCon.three{
+    display: none;
+}
+section .tabCon.four{
+    display: none;
+}
+section .tabCon.bg{
+    display: block;
+}
