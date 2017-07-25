@@ -192,6 +192,7 @@ section .tabCon ul li div{
     height: 2.5rem;
     background: url("../images/buyBtn.png") center no-repeat;
     background-size: cover;
+    z-index: 999;
 }
 section .tabCon.two ul li:nth-child(odd) div{
     bottom: -0.5rem;
